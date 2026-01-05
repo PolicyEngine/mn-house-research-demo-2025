@@ -9,29 +9,38 @@ export default function PolicyReformDemoSlide() {
     <Slide>
       <div className="max-w-7xl">
         <SlideHeader>
-          <SlideTitle>Demo 4: Statewide impact analysis</SlideTitle>
+          <SlideTitle>Demo: MN CWFC reform analysis</SlideTitle>
         </SlideHeader>
 
         <SlideContent size="lg">
           <div className="space-y-6 text-left">
             <p className="font-semibold text-pe-dark">
-              Analyze the statewide impact of the new CTC in Montana
+              Simulating a hypothetical reform to Minnesota's Child and Working Families Credit
             </p>
 
             <div className="space-y-4 ml-6">
-              <p><strong>Population impacts:</strong></p>
-              <ul className="list-disc list-inside space-y-2 ml-4">
-                <li>Poverty and deep poverty rate changes</li>
-                <li>Income inequality (Gini coefficient)</li>
-                <li>Net income by income decile</li>
-                <li>Winners, losers, and unaffected households</li>
-              </ul>
+              <div>
+                <p className="font-semibold text-pe-teal mb-2">Proposed reform:</p>
+                <ul className="list-disc list-inside space-y-2 ml-4">
+                  <li>Increase maximum credit: <strong>$1,750 → $2,000</strong></li>
+                  <li>Increase phase-out rate: <strong>12% → 20%</strong></li>
+                </ul>
+              </div>
 
-              <p className="pt-2"><strong>Budget impact:</strong> Cost to Montana</p>
+              <div className="pt-2">
+                <p className="font-semibold text-pe-teal mb-2">Analysis includes:</p>
+                <ul className="list-disc list-inside space-y-2 ml-4">
+                  <li>Poverty and deep poverty rate changes</li>
+                  <li>Income inequality (Gini coefficient)</li>
+                  <li>Net income by income decile</li>
+                  <li>Winners, losers, and unaffected households</li>
+                  <li>Budget impact to Minnesota</li>
+                </ul>
+              </div>
             </div>
 
-            <p className="text-pe-teal font-semibold pt-2">
-              policyengine.org
+            <p className="text-pe-teal font-semibold pt-4">
+              Live demo →
             </p>
           </div>
         </SlideContent>

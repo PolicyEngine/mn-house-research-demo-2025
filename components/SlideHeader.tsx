@@ -19,14 +19,14 @@ export default function SlideHeader({ children, showLogo = false }: SlideHeaderP
             <Image
               src={assetPath("/logos/profile_teal.svg")}
               alt="PolicyEngine"
-              width={60}
-              height={60}
-              className="opacity-90"
+              width={56}
+              height={56}
+              className="opacity-80"
             />
           </div>
         )}
       </div>
-      <div className="w-full h-1 bg-pe-teal mt-5"></div>
+      <div className="w-32 accent-bar mt-5"></div>
     </div>
   );
 }

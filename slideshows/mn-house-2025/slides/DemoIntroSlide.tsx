@@ -20,7 +20,7 @@ export default function DemoIntroSlide() {
 
             <ol className="list-decimal list-inside space-y-4 ml-6 text-2xl">
               <li>Explore household-by-household impacts to see the microfounded nature</li>
-              <li>Create a Montana family of four to calculate taxes and benefits</li>
+              <li>Create a Minnesota family of four to calculate taxes and benefits</li>
               <li>Simulate a new hypothetical Child Tax Credit for the family</li>
               <li>Analyze the statewide impact of the new CTC</li>
             </ol>

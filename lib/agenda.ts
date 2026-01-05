@@ -9,5 +9,5 @@ export interface AgendaItem {
 }
 
 export const agenda: AgendaItem[] = [
-  { time: '2:45 PM - 3:30 PM', title: 'Modeling and measuring the impact of state tax policies', speakerIds: ['max-ghenis'], slideshowId: 'vanderbilt-2025', type: 'talk' },
+  { time: '45 minutes', title: 'Modeling Minnesota Tax Policy with PolicyEngine', speakerIds: ['max-ghenis'], slideshowId: 'mn-house-2025', type: 'talk' },
 ];

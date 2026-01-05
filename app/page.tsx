@@ -45,10 +45,10 @@ export default function Home() {
 
         {/* Title */}
         <h1 className="text-5xl font-bold text-white mb-4">
-          State Tax Policy Academy
+          Minnesota Tax Policy Modeling
         </h1>
         <p className="text-xl text-white/80 mb-4">
-          10 November 2025 • Vanderbilt Prenatal-to-3 Policy Impact Center
+          January 6, 2025 • Minnesota House Research Department
         </p>
         <p className="text-lg text-white/60 mb-12">
           Click to view presentation slides

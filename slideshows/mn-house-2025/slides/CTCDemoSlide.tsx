@@ -15,7 +15,7 @@ export default function CTCDemoSlide() {
         <SlideContent size="lg">
           <div className="space-y-6 text-left">
             <p className="font-semibold text-pe-dark">
-              Model a hypothetical CTC for the Montana family
+              Model a hypothetical CTC for the Minnesota family
             </p>
 
             <ul className="list-disc list-inside space-y-4 ml-6">

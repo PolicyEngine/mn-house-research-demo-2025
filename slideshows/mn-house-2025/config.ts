@@ -13,11 +13,12 @@ import MicrosimDataSlide from './slides/MicrosimDataSlide';
 import MicrosimWeightsSlide from './slides/MicrosimWeightsSlide';
 import MicrosimAggregateSlide from './slides/MicrosimAggregateSlide';
 import OurApproachSlide from './slides/OurApproachSlide';
-import DemoIntroSlide from './slides/DemoIntroSlide';
 import MicrofoundedDemoSlide from './slides/MicrofoundedDemoSlide';
 import HouseholdDemoSlide from './slides/HouseholdDemoSlide';
 import MnWftcDemoSlide from './slides/MnWftcDemoSlide';
 import PolicyReformDemoSlide from './slides/PolicyReformDemoSlide';
+import PythonDemoSlide from './slides/PythonDemoSlide';
+import StateMapDemoSlide from './slides/StateMapDemoSlide';
 import LiveCodingRevealSlide from './slides/LiveCodingRevealSlide';
 import WhatsComingSlide from './slides/WhatsComingSlide';
 import EndSlide from './slides/EndSlide';
@@ -29,14 +30,12 @@ export const mnHouse2025Config: SlideshowConfig = {
   date: 'January 6, 2025',
   location: 'Minnesota House Research Department',
   slides: [
-    // === MAX (CEO) - Intro & Live Coding ===
+    // === MAX (CEO) - Intro & OBBBA Demo ===
     CoverSlide,
     LiveCodingIntroSlide,    // Kick off AI coding exercise
     IntroSlide,
     WhatIsPolicyEngineSlide,
     UsersSlide,
-
-    // === DAVID (Lead State Tax Analyst) - Microsimulation Deep Dive ===
     HowDoesItWorkSlide,
     MicrosimIntroSlide,
     MicrosimBaselineSlide,
@@ -46,17 +45,20 @@ export const mnHouse2025Config: SlideshowConfig = {
     MicrosimWeightsSlide,
     MicrosimAggregateSlide,
     OurApproachSlide,
+    MicrofoundedDemoSlide,   // OBBBA demo
 
-    // === PAVEL (Director of Growth) - App Demos ===
-    DemoIntroSlide,
-    MicrofoundedDemoSlide,
-    HouseholdDemoSlide,
-    MnWftcDemoSlide,         // MN-specific CWFC demo
-    PolicyReformDemoSlide,
-    WhatsComingSlide,
+    // === DAVID (Lead State Tax Analyst) - Household & Reform Demos ===
+    HouseholdDemoSlide,      // Minnesota household example
+    MnWftcDemoSlide,         // MN CWFC context
+    PolicyReformDemoSlide,   // Reform: $1,750→$2,000, phase-out 12%→20%
+
+    // === PAVEL (Director of Growth) - Python & Tools ===
+    PythonDemoSlide,         // Python example
+    StateMapDemoSlide,       // State EITC/CTC map + RI calculator
 
     // === MAX - Wrap Up ===
-    LiveCodingRevealSlide,   // See what Claude built
+    LiveCodingRevealSlide,   // Check back on AI coding result
+    WhatsComingSlide,        // What's coming (incl. congressional districts)
     EndSlide,
   ],
 };

@@ -9,17 +9,17 @@ export default function HouseholdDemoSlide() {
     <Slide>
       <div className="max-w-7xl">
         <SlideHeader>
-          <SlideTitle>Demo 2: Montana family of four</SlideTitle>
+          <SlideTitle>Demo 2: Minnesota family of four</SlideTitle>
         </SlideHeader>
 
         <SlideContent size="lg">
           <div className="space-y-6 text-left">
             <p className="font-semibold text-pe-dark">
-              Create a Montana family of four and calculate their taxes and benefits
+              Create a Minnesota family of four and calculate their taxes and benefits
             </p>
 
             <ul className="list-disc list-inside space-y-4 ml-6">
-              <li>Enter household characteristics: family of four in Montana</li>
+              <li>Enter household characteristics: family of four in Minnesota</li>
               <li>Set income and other relevant details</li>
               <li>View current tax liabilities and benefit eligibility</li>
               <li>See breakdown by program and net household income</li>

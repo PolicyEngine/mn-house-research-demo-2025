@@ -10,7 +10,7 @@ interface SlideTitleProps {
 export default function SlideTitle({ children, isCover = false, isEnd = false, className = '' }: SlideTitleProps) {
   if (isCover || isEnd) {
     return (
-      <h1 className={`text-7xl font-bold text-white mb-10 leading-tight text-left ${className}`}>
+      <h1 className={`text-7xl font-extrabold text-white leading-[1.1] tracking-tight text-center ${className}`}>
         {children}
       </h1>
     );
@@ -19,14 +19,14 @@ export default function SlideTitle({ children, isCover = false, isEnd = false, c
   // Allow className override for custom styles
   if (className) {
     return (
-      <h1 className={`text-6xl font-bold pb-5 text-left ${className}`}>
+      <h1 className={`text-5xl font-bold leading-tight ${className}`}>
         {children}
       </h1>
     );
   }
 
   return (
-    <h1 className="text-6xl font-bold text-pe-teal pb-5 text-left">
+    <h1 className="text-5xl font-bold text-pe-dark leading-tight tracking-tight">
       {children}
     </h1>
   );

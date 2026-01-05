@@ -45,7 +45,7 @@ export default function Slide({
       {/* Content area */}
       <div className={`
         absolute inset-0
-        ${isCover || isEnd ? 'flex items-center justify-center' : 'pt-12 pb-24'}
+        ${isCover || isEnd ? 'flex items-center justify-center' : 'pt-24 pb-28'}
       `}>
         <div className={`
           w-full h-full
@@ -66,7 +66,7 @@ export default function Slide({
             className="opacity-90"
           />
           <div className="text-white text-sm opacity-90 font-medium">
-            Prenatal-to-3 Policy Impact Center State Policy Academy
+            Minnesota House Research Department
           </div>
         </div>
       )}
