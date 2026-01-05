@@ -9,5 +9,5 @@ export interface AgendaItem {
 }
 
 export const agenda: AgendaItem[] = [
-  { time: '45 minutes', title: 'Modeling Minnesota Tax Policy with PolicyEngine', speakerIds: ['max-ghenis'], slideshowId: 'mn-house-2025', type: 'talk' },
+  { time: '45 minutes', title: 'Modeling Minnesota Tax Policy with PolicyEngine', speakerIds: ['max-ghenis', 'david-trimmer', 'pavel-makarchuk'], slideshowId: 'mn-house-2025', type: 'talk' },
 ];
