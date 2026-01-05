@@ -14,7 +14,7 @@ export default function CoverSlide() {
         <div className="text-3xl text-white space-y-3 text-left">
           <p className="font-medium">Max Ghenis</p>
           <p>Minnesota House Research Department</p>
-          <p className="text-2xl">January 2025</p>
+          <p className="text-2xl">January 6, 2025</p>
         </div>
       </div>
     </Slide>

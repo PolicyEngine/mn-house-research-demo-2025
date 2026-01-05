@@ -26,7 +26,7 @@ export const mnHouse2025Config: SlideshowConfig = {
   id: 'mn-house-2025',
   title: 'Modeling Minnesota Tax Policy with PolicyEngine',
   description: 'Learn how to model and measure the impact of Minnesota tax policies using PolicyEngine',
-  date: 'January 2025',
+  date: 'January 6, 2025',
   location: 'Minnesota House Research Department',
   slides: [
     // === MAX (CEO) - Intro & Live Coding ===

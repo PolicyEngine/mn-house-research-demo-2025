@@ -5,7 +5,7 @@ PolicyEngine presentation for the Minnesota House Research Department.
 ## Presentation
 
 **Title**: Modeling Minnesota Tax Policy with PolicyEngine
-**Date**: January 2025
+**Date**: January 6, 2025
 **Duration**: ~45 minutes
 
 ### Speakers
