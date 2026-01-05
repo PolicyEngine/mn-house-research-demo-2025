@@ -15,9 +15,19 @@ export default function CoverSlide() {
         </SlideTitle>
 
         {/* Speaker info */}
-        <div className="text-center space-y-2">
-          <p className="text-3xl font-semibold text-white">Max Ghenis</p>
-          <p className="text-xl text-white/70 font-light tracking-wide">CEO, PolicyEngine</p>
+        <div className="flex items-center justify-center gap-12">
+          <div className="text-center">
+            <p className="text-2xl font-semibold text-white">Max Ghenis</p>
+            <p className="text-lg text-white/70 font-light">CEO</p>
+          </div>
+          <div className="text-center">
+            <p className="text-2xl font-semibold text-white">David Trimmer</p>
+            <p className="text-lg text-white/70 font-light">Lead State Tax Analyst</p>
+          </div>
+          <div className="text-center">
+            <p className="text-2xl font-semibold text-white">Pavel Makarchuk</p>
+            <p className="text-lg text-white/70 font-light">Director of Growth</p>
+          </div>
         </div>
 
         {/* Event details */}
