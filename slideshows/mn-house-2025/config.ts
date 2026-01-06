@@ -15,7 +15,6 @@ import MicrosimAggregateSlide from './slides/MicrosimAggregateSlide';
 import OurApproachSlide from './slides/OurApproachSlide';
 import MicrofoundedDemoSlide from './slides/MicrofoundedDemoSlide';
 import HouseholdDemoSlide from './slides/HouseholdDemoSlide';
-import MnWftcDemoSlide from './slides/MnWftcDemoSlide';
 import PolicyReformDemoSlide from './slides/PolicyReformDemoSlide';
 import PythonDemoSlide from './slides/PythonDemoSlide';
 import StateMapDemoSlide from './slides/StateMapDemoSlide';
@@ -49,8 +48,7 @@ export const mnHouse2025Config: SlideshowConfig = {
 
     // === DAVID (Lead State Tax Analyst) - Household & Reform Demos ===
     HouseholdDemoSlide,      // Minnesota household example
-    MnWftcDemoSlide,         // MN CWFC context
-    PolicyReformDemoSlide,   // Reform: $1,750→$2,000, phase-out 12%→20%
+    PolicyReformDemoSlide,   // Tax rate reform demo
 
     // === PAVEL (Director of Growth) - Python & Tools ===
     PythonDemoSlide,         // Python example

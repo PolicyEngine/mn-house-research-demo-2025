@@ -9,24 +9,16 @@ export default function PolicyReformDemoSlide() {
     <Slide>
       <div className="max-w-7xl">
         <SlideHeader>
-          <SlideTitle>Demo: MN CWFC reform analysis</SlideTitle>
+          <SlideTitle>Demo: Tax rate reform analysis</SlideTitle>
         </SlideHeader>
 
         <SlideContent size="lg">
           <div className="space-y-6 text-left">
             <p className="font-semibold text-pe-dark">
-              Simulating a hypothetical reform to Minnesota's Child and Working Families Credit
+              Simulating a hypothetical tax rate change in Minnesota
             </p>
 
             <div className="space-y-4 ml-6">
-              <div>
-                <p className="font-semibold text-pe-teal mb-2">Proposed reform:</p>
-                <ul className="list-disc list-inside space-y-2 ml-4">
-                  <li>Increase maximum credit: <strong>$1,750 → $2,000</strong></li>
-                  <li>Increase phase-out rate: <strong>12% → 20%</strong></li>
-                </ul>
-              </div>
-
               <div className="pt-2">
                 <p className="font-semibold text-pe-teal mb-2">Analysis includes:</p>
                 <ul className="list-disc list-inside space-y-2 ml-4">
