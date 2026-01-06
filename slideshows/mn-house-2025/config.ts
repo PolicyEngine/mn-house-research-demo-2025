@@ -1,5 +1,4 @@
 import { SlideshowConfig } from '@/lib/types';
-import CoverSlide from './slides/CoverSlide';
 import LiveCodingIntroSlide from './slides/LiveCodingIntroSlide';
 import IntroSlide from './slides/IntroSlide';
 import WhatIsPolicyEngineSlide from './slides/WhatIsPolicyEngineSlide';
@@ -30,7 +29,6 @@ export const mnHouse2025Config: SlideshowConfig = {
   location: 'Minnesota House Research Department',
   slides: [
     // === MAX (CEO) - Intro & OBBBA Demo ===
-    CoverSlide,
     LiveCodingIntroSlide,    // Kick off AI coding exercise
     IntroSlide,
     WhatIsPolicyEngineSlide,
