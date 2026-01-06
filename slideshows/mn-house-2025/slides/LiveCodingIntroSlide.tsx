@@ -29,8 +29,8 @@ export default function LiveCodingIntroSlide() {
               <span className="ml-4 text-gray-500 text-sm font-mono">claude-code</span>
             </div>
             <div className="code-block-content space-y-4">
-              <p className="text-[#7ee787]">Build a React app visualizing Minnesota's Child & Working Families Credit using PolicyEngine-US.</p>
-              <p className="text-gray-300">Controls for credit amount, phase-out rate, and thresholds. Chart showing credit vs earnings for 1/2/3 children.</p>
+              <p className="text-[#7ee787]">Build a Python script that charts Minnesota's Child & Working Families Credit vs earnings using policyengine_us.</p>
+              <p className="text-gray-300">Show lines for 1, 2, and 3 children. Save the chart as an image.</p>
             </div>
           </div>
 

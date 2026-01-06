@@ -12,7 +12,6 @@ import MicrosimDataSlide from './slides/MicrosimDataSlide';
 import MicrosimWeightsSlide from './slides/MicrosimWeightsSlide';
 import MicrosimAggregateSlide from './slides/MicrosimAggregateSlide';
 import OurApproachSlide from './slides/OurApproachSlide';
-import MicrofoundedDemoSlide from './slides/MicrofoundedDemoSlide';
 import HouseholdDemoSlide from './slides/HouseholdDemoSlide';
 import PolicyReformDemoSlide from './slides/PolicyReformDemoSlide';
 import PythonDemoSlide from './slides/PythonDemoSlide';
@@ -42,7 +41,6 @@ export const mnHouse2025Config: SlideshowConfig = {
     MicrosimWeightsSlide,
     MicrosimAggregateSlide,
     OurApproachSlide,
-    MicrofoundedDemoSlide,   // OBBBA demo
 
     // === DAVID (Lead State Tax Analyst) - Household & Reform Demos ===
     HouseholdDemoSlide,      // Minnesota household example
