@@ -1,20 +1,24 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap');
 
 @import "tailwindcss";
+@import "@policyengine/design-system/tokens.css";
 
 @theme {
   --font-sans: 'Inter', sans-serif;
-  --color-pe-teal: #319795;
-  --color-pe-dark: #1D4044;
+  --color-pe-teal: var(--pe-color-primary-500);
+  --color-pe-teal-600: var(--pe-color-primary-600);
+  --color-pe-teal-800: var(--pe-color-primary-800);
+  --color-pe-dark: var(--pe-color-primary-900);
   --color-pe-darker: #0D2F33;
+  --color-pe-blue-700: var(--pe-color-blue-700);
 }
 
 :root {
-  --pe-teal: #319795;
+  --pe-teal: var(--pe-color-primary-500);
   --pe-teal-dark: #267573;
-  --pe-dark: #1D4044;
+  --pe-dark: var(--pe-color-primary-900);
   --pe-darker: #0D2F33;
-  --pe-light: #E6FFFA;
+  --pe-light: var(--pe-color-primary-50);
   --slide-bg: #FAFCFD;
 }
 
@@ -27,7 +31,7 @@
 body {
   font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
   background: var(--slide-bg);
-  color: #1a1a1a;
+  color: var(--pe-color-text-primary);
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
@@ -287,7 +291,7 @@ h1, h2, h3 {
 }
 
 .mermaid g.node:not(.cluster) text {
-  fill: #ffffff !important;
+  fill: var(--pe-color-text-inverse) !important;
   font-weight: 600 !important;
   font-size: 28px !important;
 }
@@ -301,7 +305,7 @@ h1, h2, h3 {
 }
 
 .bg-subtle {
-  background: linear-gradient(180deg, var(--slide-bg) 0%, #f0f5f7 100%);
+  background: linear-gradient(180deg, var(--slide-bg) 0%, var(--pe-color-bg-tertiary) 100%);
 }
 
 .glass {
